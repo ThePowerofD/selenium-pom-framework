@@ -1,3 +1,4 @@
+![Tests](https://github.com/ThePowerofD/selenium-pom-framework/actions/workflows/tests.yml/badge.svg)
 # Selenium POM Framework
 
 A Python + Selenium + pytest test automation framework demonstrating Page Object Model design, parameterized testing, and CI/CD integration.
