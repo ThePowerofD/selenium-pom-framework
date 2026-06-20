@@ -43,6 +43,6 @@ class LoginPage:
     
     
     #def is_logged_in(self):
-        return "/inventory.html" in self.driver.current_url
+        #return "/inventory.html" in self.driver.current_url
     
     
