@@ -57,7 +57,7 @@ def driver_download(request):
     driver.quit()
 
 
-@pytest.hookimpl(tryfirst=True, hookwrapper=True)
+@pytest.hookimpl(tryfirst=True, hookwrapper=True) ## tryfirst=True is redundant here — only matters when another wrapper for this same hook (e.g. pytest-html) competes for ordering
 def pytest_runtest_makereport(item, call):
     outcome = yield
     report = outcome.get_result()
